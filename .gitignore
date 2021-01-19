@@ -1,0 +1,11 @@
+.env
+.idea/
+*.idea/
+*.vscode
+*.log
+*.sqlite3
+venv/
+*/migrations/
+*/__pycache__/
+*.pyc
+static/
