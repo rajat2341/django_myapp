@@ -10,4 +10,4 @@ admin.site.register(UserDetails)
 @admin.register(User)
 class UserAdmin(ModelAdmin):
     list_display = ["id", "username", "first_name", "last_name", "email", "role", "relation"]
-    list_filter = ["id", "username", "role"]
+    # list_filter = ["id", "username", "role"]
